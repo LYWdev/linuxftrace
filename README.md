@@ -2,10 +2,10 @@
 
 ## ftrace
 
-'''sh
+```sh
 #!/bin/bash
 
-'''
+```
 
 
 
