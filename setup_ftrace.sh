@@ -1,7 +1,6 @@
 #!/bin/bash
 
-##
-echo 0 > /sys/kernel/debug/tracing/tracin_on
+echo 0 > /sys/kernel/debug/tracing/tracing_on
 sleep 1
 echo "tracing_off"
 
@@ -9,9 +8,9 @@ echo 0 > /sys/kernel/debug/tracing/events/enable
 sleep 1
 echo "events disabled" 
 
-echo secondary_start_kernel > /sys/kernel/debug/tracing/set_ftrace_filter
-sleep 1
-echo "set_ftrace_filter" 
+#echo secondary_start_kernel > /sys/kernel/debug/tracing/set_ftrace_filter
+#sleep 1
+#echo "set_ftrace_filter" 
 
 echo function > /sys/kernel/debug/tracing/current_tracer
 sleep 1
