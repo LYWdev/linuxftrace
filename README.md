@@ -12,6 +12,12 @@ echo "tracing_off"
 
 Tracer설정 
 
+Tracer설정 
+Tracer설정 
+Tracer설정 
+Tracer설정 
+Tracer설정 
+Tracer설정 
 ```sh
 echo function > /sys/kernel/debug/tracing/current_tracer
 sleep 1
